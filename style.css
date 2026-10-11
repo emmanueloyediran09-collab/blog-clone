@@ -1,0 +1,235 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* The heading , button, etc */
+body{
+    background-color: #201313;
+     text-align: left;
+    padding-left: 300px ;
+    padding-right: 300px ;
+}
+
+.header{
+    margin-top: 120px;
+    color: #faf9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hr1{
+    margin-top: 20px;
+    background-color: #594c48;
+    width: 700px;border: none;
+   height: 2px;
+}
+
+.secondheader{
+
+    margin-top: 40px;
+}
+
+.firstbutton{
+    border-radius: 50px;
+    background-color: RGB(255, 199, 38);
+    font-family: monospace;
+    font-size: 20px;
+    padding: 9px 15px 9px 15px;
+    border: none;
+}
+
+.b2,.b3,.b4{
+     border-radius: 50px;
+    background-color: transparent;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 9px 15px 9px 15px;
+    border: 1px solid #594c48;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+
+.a1{
+  text-decoration: none;
+  color: #201313;  
+}
+
+.a2,.a3,.a4{
+    text-decoration: none;
+    color: #faf9f9;
+}
+
+.a5{
+    color: #faf9f9;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+
+/* the first write up */
+.thirdheader{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+
+
+.a6{
+    text-decoration: none;
+    color: #faf9f9;
+    font-size: 28px;
+}
+
+.paragraph2{
+    color: #faf9f9;
+    font-size: 18px;
+    margin-top: 10px;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+.a7,.a8{
+    color: #ffdf8b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.a9,.a10{
+    color: #faf9f9;
+    text-decoration: none;
+    font-weight: 600;
+}
+}
+
+/* card section */
+
+.card{
+    border: 2px #2F1C1C;
+    background-color: #2F1C1C;
+    margin-top: 80px;
+    padding: 30px 40px;
+
+.oneh1{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #faf9f9;
+    font-size: 35px;
+}
+
+.paragraph3{
+    margin-top: 20px;
+    color: #faf9f9;
+    font-family: monospace;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.secondbutton{
+    background-color: #E03131;
+    padding: 15px 35px 15px 35px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    width: 180px;
+}
+
+
+    .a11{
+        color: #faf9f9;
+        text-decoration: none;
+        font-family: monospace;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+
+/* paragraph under the card */
+.paragraph4{
+    color: #faf9f9;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 40px;
+
+
+.a12{
+    color: #ffdf8b;
+    text-decoration: underline;
+    text-decoration-style: dotted ;
+    margin-left: 80px;
+}
+}
+
+.hr2{
+   background-color: #2F1C1C;
+   margin-top: 20px;
+   border: none;
+   height: 2px;
+}
+
+
+
+
+/* third write up */
+.sixthheader{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+
+
+    .writeuptext{
+        margin-top: 70px;
+    }
+
+    
+.a24{
+    text-decoration: none;
+    color: #faf9f9;
+    font-size: 28px;
+}
+
+.paragraph7{
+    color: #faf9f9;
+    font-size: 18px;
+    margin-top: 10px;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+.a25{
+    color: #ffdf8b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.a26,.a27,.a28{
+    color: #faf9f9;
+    text-decoration: none;
+    font-weight: 600;
+}
+}
+
+/* the pages links and the horizontal line */
+.paragraph8{
+    color: RGB(255, 199, 38) ;
+    margin-top: 30px;
+    padding-left: 400px;
+}
+
+.a29,.a30,.a31,.a32 ,.a33{
+        text-decoration: underline;
+        text-decoration-style:dotted;
+        color:  #faf9f9;
+        margin-left: 10px;
+    }
+
+.hr3{
+     background-color: #2F1C1C;
+   margin-top: 120px;
+   border: none;
+   height: 2px;
+   margin-bottom: 120px;
+}
