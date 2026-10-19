@@ -3,33 +3,82 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* nav bar */
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+}
 
+
+    .image{
+        width: 200px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+button{
+ border-radius: 50px;
+ background-color:#E03131;
+ padding:12PX 18px;
+ border: 3px solid #f58484;
+ margin-right: 20px;
+
+ a{
+    text-decoration: none;
+    color:#faf9f9;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 15px;
+ }
+}
+
+li a{
+    text-decoration: none;
+    color: #faf9f9;
+     font-family: monospace;
+     font-size:19px;
+     font-weight: 550;
+}
 /* The heading , button, etc */
 body{
-    background-color: #201313;
-     text-align: left;
+    background-color: #201313;  
+}
+
+main{
     padding-left: 300px ;
     padding-right: 300px ;
+    text-align: left;
 }
 
 .header{
     margin-top: 120px;
     color: #faf9f9;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 29px;
+    font-weight: 100;
 }
 
 .hr1{
     margin-top: 20px;
     background-color: #594c48;
-    width: 700px;border: none;
+    width: 890px;
+    border: none;
    height: 2px;
+   margin-bottom: 10px;
 }
 
 .secondheader{
 
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .firstbutton{
@@ -39,16 +88,17 @@ body{
     font-size: 20px;
     padding: 9px 15px 9px 15px;
     border: none;
+    margin-right: 40px;
 }
 
 .b2,.b3,.b4{
      border-radius: 50px;
     background-color: transparent;
     font-family: monospace;
-    font-size: 18px;
-    padding: 9px 15px 9px 15px;
+    font-size: 8px;
+    padding: 9px 19px 9px 19px;
     border: 1px solid #594c48;
-    margin-right: 8px;
+    margin-right: 40px;
     margin-left: 8px;
 }
 
@@ -73,45 +123,14 @@ body{
 }
 
 
-/* the first write up */
-.thirdheader{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 40px;
 
-
-.a6{
-    text-decoration: none;
-    color: #faf9f9;
-    font-size: 28px;
-}
-
-.paragraph2{
-    color: #faf9f9;
-    font-size: 18px;
-    margin-top: 10px;
-    word-spacing: 1px;
-    line-height: 1.5;
-}
-
-.a7,.a8{
-    color: #ffdf8b;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.a9,.a10{
-    color: #faf9f9;
-    text-decoration: none;
-    font-weight: 600;
-}
-}
 
 /* card section */
 
 .card{
     border: 2px #2F1C1C;
     background-color: #2F1C1C;
-    margin-top: 80px;
+    margin-top: 70px;
     padding: 30px 40px;
 
 .oneh1{
@@ -189,6 +208,32 @@ body{
     text-decoration: none;
     color: #faf9f9;
     font-size: 28px;
+}
+
+.paragraph2{
+    color: #faf9f9;
+    font-size: 18px;
+    margin-top: 10px;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+.a6{
+    text-decoration: none;
+    color: #faf9f9;
+    font-size: 28px;
+}
+
+.a7,.a8{
+    color: #ffdf8b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.a9,.a10{
+    color: #faf9f9;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .paragraph7{
